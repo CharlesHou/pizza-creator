@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+}
+
+
+.container{
+  
+  height: 100vh; 
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.details{
+  margin-left: 2rem;
+}
+
+.items > form {
+  font-size: 0.8rem;
+}
+
+span{
+  color: #e01d3b;
+  font-weight: 700; 
+  font: BlinkMacSystemFont;
+}
+
+.items{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  grid-column-gap: 1rem;
+}
